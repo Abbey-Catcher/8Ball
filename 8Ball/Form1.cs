@@ -12,6 +12,7 @@ namespace _8Ball
 {
     public partial class Form1 : Form
     {
+        Random randGen = new Random();
         public Form1()
         {
             InitializeComponent();
