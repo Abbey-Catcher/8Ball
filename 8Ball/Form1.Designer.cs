@@ -43,6 +43,7 @@
             this.ballButton.Size = new System.Drawing.Size(623, 534);
             this.ballButton.TabIndex = 0;
             this.ballButton.UseVisualStyleBackColor = true;
+            this.ballButton.Click += new System.EventHandler(this.ballButton_Click);
             // 
             // questionLabel
             // 
